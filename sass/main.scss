@@ -8,19 +8,19 @@
 @import "./components/buttons/button-secondary";
 @import "./components/buttons/button-close";
 
-@import "./components/header/header";
-@import "./components/logo";
-@import "./components/contacts";
-@import "./components/header/menu";
-@import "./components/form-field";
+@import "./layout/header/header";
+@import "./layout/logo";
+@import "./layout/contacts";
+@import "./layout/header/menu";
+@import "./layout/form-field";
 
 @import "./components/studio/section-hero";
 @import "./components/overlay";
-@import "./components/backdrop";
-@import "./components/modal";
-@import "./components/form";
+@import "./layout/backdrop";
+@import "./layout/modal";
+@import "./layout/form";
 
-@import "./components/section";
+@import "./layout/section";
 
 @import "./components/studio/section-features";
 @import "./components/feature-card";
@@ -30,13 +30,13 @@
 
 @import "./components/studio/section-team";
 @import "./components/team-card";
-@import "./components/network";
+@import "./layout/network";
 
 @import "./components/studio/section-clients";
 @import "./components/client-card";
 
-@import "./components/footer/footer";
-@import "./components/address";
+@import "./layout/footer/footer";
+@import "./layout/address";
 
 @import "./components/portfolio/portfolio-buttons";
 @import "./components/portfolio/projects";

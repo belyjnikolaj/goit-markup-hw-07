@@ -216,28 +216,6 @@ address {
   margin-left: 93px;
   gap: 50px;
 }
-.header__link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.header__link--current {
-  color: var(--accent-color);
-}
-.header__link--current::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  display: block;
-  content: "";
-  height: 4px;
-  width: 100%;
-  background: #2196F3;
-  border-radius: 2px;
-}
-.header__item {
-  position: relative;
-}
 .header__contact-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,6 +270,9 @@ address {
 }
 
 .menu__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -303,6 +284,22 @@ address {
 }
 .menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
+}
+.menu__link--current {
+  color: var(--accent-color);
+}
+.menu__link--current::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: #2196F3;
+  border-radius: 2px;
+}
+.menu__item {
+  position: relative;
 }
 
 .form-field__control {
@@ -1016,4 +1013,5 @@ address {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
